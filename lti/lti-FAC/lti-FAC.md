@@ -25,33 +25,29 @@ LTI’s SaaS platform is designed to transform the recruitment process by provid
 
 ## Automated Candidate Screening and Ranking
 
-```
-@startuml
-!define RECTANGLE stereotype rectangle
-!define ELLIPSE stereotype ellipse
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'edgeLabelBackground':'#ffffff', 'lineColor': '#333', 'fontSize': '16px'}}}%%
+graph TD
 
-left to right direction
-skinparam packageStyle rectangle
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef actorStyle fill:#bbf,stroke:#333,stroke-width:2px;
+    
+    Recruiter[Recruiter]:::actorStyle
+    HiringManager[Hiring Manager]:::actorStyle
+    
+    ImportResumes(Import Resumes) 
+    ParseResumes(Parse Resumes)
+    MatchQualifications(Match Qualifications)
+    RankCandidates(Rank Candidates)
+    NotifyRecruiters(Notify Recruiters)
 
-actor Recruiter
-actor "Hiring Manager" as HiringManager
+    Recruiter --> ImportResumes : uploads
+    Recruiter --> NotifyRecruiters : receives notifications
+    HiringManager --> RankCandidates : reviews and approves
+    
+    ImportResumes --> ParseResumes
+    ParseResumes --> MatchQualifications
+    MatchQualifications --> RankCandidates
+    RankCandidates --> NotifyRecruiters
 
-rectangle "Automated Candidate Screening and Ranking" {
-  usecase "Import Resumes" as ImportResumes
-  usecase "Parse Resumes" as ParseResumes
-  usecase "Match Qualifications" as MatchQualifications
-  usecase "Rank Candidates" as RankCandidates
-  usecase "Notify Recruiters" as NotifyRecruiters
-
-  Recruiter --> ImportResumes : uploads
-  Recruiter --> NotifyRecruiters : receives notifications
-  HiringManager --> RankCandidates : reviews and approves
-  
-  ImportResumes .right.> ParseResumes : feeds into
-  ParseResumes .right.> MatchQualifications : feeds into
-  MatchQualifications .right.> RankCandidates : results in
-  RankCandidates .right.> NotifyRecruiters : triggers
-}
-
-@enduml
 ```
