@@ -107,7 +107,7 @@ Application ||..|{ Interview
 @enduml
 ```
 # UML 1
-![Image 2](uml1.png)
+![Image 2](UML1.png)
 
 This magical incantation will generate a diagram representing the entities and their connections: 
 1. **Job Posting**  connects to **Application**  indicating that one job posting can have many applications. 
@@ -194,7 +194,7 @@ N3 .. Interview
 ```
 
 # UML
-![Image 2](uml2.png)
+![Image 2](UML2.png)
 
 
 In this extended version: 
