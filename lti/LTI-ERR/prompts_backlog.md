@@ -43,16 +43,4 @@ En este caso de uso, los técnicos de RRHH revisan las solicitudes de los candid
 
 -- **Prompt**: Entonces, genera las tareas técnicas, separando backend, frontend y otros, si necesiario, acerca de la primera user story "US1: Crear nueva oferta de trabajo"
 
--- **Prompt**: 
--- **Prompt**: 
-
-
-## Generación de los tickets de trabajo
-## Generación de los tickets de trabajo
-## Generación de los tickets de trabajo
-
-**Generación plantilla para historias de usuario**
-
-
-# Trello board
-https://trello.com/invite/b/cgkxFCTn/ATTI47103a8e6197be8278345f1581ea71eeFED259A2/lti
+-- **Prompt**: Dame estimaciones, en story points, de cada una de las tareas
