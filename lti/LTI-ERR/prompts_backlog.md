@@ -1,6 +1,6 @@
 # Prompts
 
-Conversacion completa: https://chat.openai.com/share/a375432d-c237-45a4-98f4-a18ca67dead9
+Conversacion completa: https://chat.openai.com/share/8d57dddf-1ba8-4b57-9ca4-87a1386bc119
 
 He mantenido dos conversaciones, ambas con Chat GPT 3.5. En una de ellas he ido ampliando conocimientos sobre historias de usuarios, backlog, técnicas para priorizar, le he pedido que me genere una plantilla para describir con detalle las historias de usuario y le he pedido que me genere un script para poder generar los tickets de forma automática en Trello. En otra he ido generando las historias de usuario, el backlog y los tickets.
 
