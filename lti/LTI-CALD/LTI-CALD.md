@@ -1,28 +1,25 @@
- 
 # Diseño de Sistema de Gestión de Candidatos
 ## _Sistema LTI (Leading Talent Insights)_
 ![LTI](./res/logo.png)
 
 
-# Tabla de Contenido
+## Tabla de Contenido
 
-## Descripción
-- [Ventajas](#ventajas)
-
-## Modelo de negocio
-- [Lean Canvas](#lean-canvas)
-
-## Diseño técnico
-- [Principales Casos de uso](#principales-casos-de-uso)
-- [Modelo de Datos](#modelo-de-datos)
-- [Diseño del Sistema LTI a alto nivel](#diseño-del-sistema-lti-a-alto-nivel)
-- [Diagrama C4 del Sistema LTI](#diagrama-c4-del-sistema-lti)
-  - [Nivel 1: Contexto](#nivel-1-contexto)
-  - [Nivel 2: Contenedores](#nivel-2-contenedores)
-  - [Nivel 3: Componentes](#nivel-3-componentes)
-  - [Nivel 4: Código](#nivel-4-código)
-
-
+1. [Introducción](#introducción)
+2. [Descripción](#descripción)
+    - [Ventajas](#ventajas)
+3. [Modelo de negocio](#modelo-de-negocio)
+    - [Lean Canvas](#lean-canvas)
+4. [Diseño técnico](#diseño-técnico)
+    - [Principales Casos de uso](#principales-casos-de-uso)
+    - [Modelo de Datos](#modelo-de-datos)
+    - [Diseño del Sistema LTI a alto nivel](#diseño-del-sistema-lti-a-alto-nivel)
+    - [Diagrama C4 del Sistema LTI](#diagrama-c4-del-sistema-lti)
+      - [Nivel 1: Contexto](#nivel-1-contexto)
+      - [Nivel 2: Contenedores](#nivel-2-contenedores)
+      - [Nivel 3: Componentes](#nivel-3-componentes)
+      - [Nivel 4: Código](#nivel-4-código)
+5. [Conclusión](#conclusión)
 
 
 ### Introducción
